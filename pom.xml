@@ -26,6 +26,12 @@
 
       <dependency>
         <groupId>org.camunda.bpm</groupId>
+        <artifactId>camunda-bpm-spring-boot-starter</artifactId>
+        <version>${camunda.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.camunda.bpm</groupId>
         <artifactId>camunda-bom</artifactId>
         <version>7.23.0</version>
         <scope>import</scope>
@@ -58,6 +64,7 @@
     <dependency>
       <groupId>com.h2database</groupId>
       <artifactId>h2</artifactId>
+      <scope>runtime</scope>
     </dependency>
 
     <dependency>
